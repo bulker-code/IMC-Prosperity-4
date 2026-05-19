@@ -21,13 +21,13 @@ This round featured two products, "INTARIAN_PEPPER_ROOT" and "ASH_COATED_OSMIUM"
 ### Round 2:
 Round 2 contained the same 2 products, so the aforementioned strategies of buying and holding pepper and mean reverting osmium held up fairly well. However it introduced a third variable, a bid for extra market share. It would allow the top 50% of bidders to gain access to an extra 25% of timestamps to trade on, potentially increasing profits. 
 
-## Round 3:
+### Round 3:
 
 
-## Round 4:
+### Round 4:
 
 
-## Round 5:
+### Round 5:
 
 ## Structure
 Each round contains a data capsule with relevant data for the trading day.
