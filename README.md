@@ -6,20 +6,20 @@ top 10% out of 19,000 participants.
 
 The competition consisted of two phases. The first phase, rounds 1 and 2, was a qualification stage in which competing teams would need to amass 200,000 XIRECS to qualify for finals. The second phase, rounds 3, 4 and 5, were designed to separate the good from the great and determine winners from the pool of finalists. Each trading round had both an algorithmic and a manual trading challenge.  
 
-## Algorithmic Strategies
 The algorithmic challenges required teams to develop and submit a python algorithm which placed buy and sell orders to extract profit over a simulated trading day. During the trading round, submissions were backtested in the IMC website, and when the round ended, they were run on a larger official data pipeline.
 - Mean reversion
 - Market making
  
-## Manual Strategies
 The manual challenges were game-theory heavy, being less about finding the perfect answer and more about predicting how thousands of competitors would react to the same information. 
 - Game Theory
 - Position optimisation using Lagrange multipliers
 
 ## Round by Round Recap
 ### Round 1:
+This round featured two products, "INTARIAN_PEPPER_ROOT" and "ASH_COATED_OSMIUM". The intarian pepper root was a "slow-growing" root that increased price steadily over time. A viable strategy and the strategy I submitted, was to buy and hold pepper root and collect profit as its price grew linearly. The other product, "ASH_COATED_OSMIUM", was not so simple, however it did oscillated around a fairly steady mean. Thus, I implemented a strategy to target mean reversion, buying or selling when a product exceeded a certain standard deviation of the mean of the previous product prices. 
 
-
+### Round 2
+Round 2 contained the same 2 products, however it introduced a third variable, a bid for extra market share. It would allow the top 50% of bidders to gain access to an extra 25% of timestamps to trade on, potentially increasing profits. The product behaviour was vastly similar to round 1 and as such, the aforementioned strategies of buying and holding pepper and mean reverting osmium held up fairly well. 
 ## Structure
 Each round contains a data capsule with relevant data for the trading day.
 - `ROUND1/` - Round 1 trading algorithms
