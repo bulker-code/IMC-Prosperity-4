@@ -16,16 +16,24 @@ The manual challenges were game-theory heavy, being less about finding the perfe
 
 ## Round by Round Recap
 ### Round 1:
-This round featured two products, "INTARIAN_PEPPER_ROOT" and "ASH_COATED_OSMIUM". The intarian pepper root was a "slow-growing" root that increased price steadily over time. A viable strategy and the strategy I submitted, was to buy and hold pepper root and collect profit as its price grew linearly. The other product, "ASH_COATED_OSMIUM", was not so simple, however it did oscillated around a fairly steady mean. Thus, I implemented a strategy to target mean reversion, buying or selling when a product exceeded a certain standard deviation of the mean of the previous product prices. 
+This round featured two products, "INTARIAN_PEPPER_ROOT" and "ASH_COATED_OSMIUM". The intarian pepper root was a "slow-growing" root that increased price steadily over time. A viable strategy and the strategy I submitted, was to buy and hold pepper root and collect profit as its price grew linearly. The other product, ash coated osmium, was not so simple, however it did oscillated around a fairly steady mean. Thus, I implemented a strategy to target mean reversion, buying or selling when a product exceeded a certain standard deviation of the mean of the previous product prices. 
 
-### Round 2
-Round 2 contained the same 2 products, however it introduced a third variable, a bid for extra market share. It would allow the top 50% of bidders to gain access to an extra 25% of timestamps to trade on, potentially increasing profits. The product behaviour was vastly similar to round 1 and as such, the aforementioned strategies of buying and holding pepper and mean reverting osmium held up fairly well. 
+### Round 2:
+Round 2 contained the same 2 products, so the aforementioned strategies of buying and holding pepper and mean reverting osmium held up fairly well. However it introduced a third variable, a bid for extra market share. It would allow the top 50% of bidders to gain access to an extra 25% of timestamps to trade on, potentially increasing profits. 
+
+## Round 3:
+
+
+## Round 4:
+
+
+## Round 5:
+
 ## Structure
 Each round contains a data capsule with relevant data for the trading day.
 - `ROUND1/` - Round 1 trading algorithms
 - `ROUND2/` - Round 2 trading algorithms
 - `ROUND3/` - Round 3 trading algorithms
-- 
 
 ## Technologies
 - Python
