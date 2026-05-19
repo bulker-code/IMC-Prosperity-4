@@ -24,13 +24,10 @@ Finals has begun and the new main products are "VELVETFRUIT_EXTRACT" and "HYDROG
 ### Round 5:
 
 ## Structure
-Each round contains a data capsule with relevant data for the trading day.
-- `ROUND1/` - Round 1 trading algorithms
-- `ROUND2/` - Round 2 trading algorithms
-- `ROUND3/` - Round 3 trading algorithms
+Each round contains a data capsule with relevant data for the trading day, accompanied by a data_analysis file so that the data can be interpreted and strategies could be developed. It also has a mock datamodel file, allowing the python files to be run in shell. 
+- `ROUND1/` - Round 1 trading algorithms and manual tools
+- `ROUND2/` - Round 2 trading algorithms and manual tools
+- `ROUND3/` - Round 3 trading algorithms and manual tools
+- `ROUND4/` - Round 4 trading algorithms and manual toold
+- `ROUND5/` - Round 5 trading algorithms and manual tools
 
-## Technologies
-- Python
-- NumPy
-- Pandas
-- html
